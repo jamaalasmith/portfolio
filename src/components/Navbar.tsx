@@ -1,21 +1,13 @@
 'use client';
 
-import { Menu } from 'antd';
-import { useState } from 'react';
+import { Menu,  } from 'antd';
 
 const Navbar = () => {
-  const [current, setCurrent] = useState('home');
-
-  const handleClick = (e: any) => {
-    setCurrent(e.key);
-  };
 
   return (
     <nav className="fixed top-0 z-50 w-full">
       <div className="backdrop-blur-md bg-white/30">
         <Menu
-          onClick={handleClick}
-          selectedKeys={[current]}
           mode="horizontal"
           theme="light"
           className="justify-center bg-transparent"
