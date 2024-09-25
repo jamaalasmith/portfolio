@@ -1,4 +1,3 @@
-// components/Navbar.tsx
 'use client';
 
 import { Menu } from 'antd';

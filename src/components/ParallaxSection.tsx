@@ -1,4 +1,3 @@
-// components/ParallaxSection.tsx
 'use client';
 
 const ParallaxSection = () => (
