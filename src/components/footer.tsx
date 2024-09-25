@@ -2,9 +2,6 @@
 'use client';
 
 import {
-  FacebookFilled,
-  TwitterSquareFilled,
-  InstagramFilled,
   LinkedinFilled,
 } from '@ant-design/icons';
 
