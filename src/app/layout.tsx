@@ -5,7 +5,7 @@ import {Navbar} from '../components/Navbar';
 import {Footer} from '../components/Footer';
 
 export const metadata = {
-  title: 'My Stunning Portfolio',
+  title: 'Jamaal Smith - Portfolio',
   description: 'A showcase of my work and skills.',
 };
 

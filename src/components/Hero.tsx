@@ -13,6 +13,9 @@ export const Hero = () => {
         <p className="mb-8 text-xl lg:text-2xl">
           Crafting experiences through design.
         </p>
+          <p className="mb-8 text-xl lg:text-2xl">
+          Keep in mind that this web site is under construction
+        </p>
         <Button
           type="primary"
           size="large"
@@ -21,7 +24,8 @@ export const Hero = () => {
           Explore More <ArrowRightOutlined className="ml-2" />
         </Button>
       </div>
-      <div className="absolute inset-0 bg-[url('/images/hero-bg.svg')] bg-cover opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('/images/hero-bg.svg')] bg-cover opacity-10">
+      </div>
     </section>
   );
 };
