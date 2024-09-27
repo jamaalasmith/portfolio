@@ -1,6 +1,6 @@
 'use client';
 
-const ParallaxSection = () => (
+export const ParallaxSection = () => (
   <section
     className="relative h-screen bg-fixed bg-center bg-cover"
     style={{ backgroundImage: "url('/images/parallax-bg.jpg')" }}
@@ -10,5 +10,3 @@ const ParallaxSection = () => (
     </div>
   </section>
 );
-
-export default ParallaxSection;

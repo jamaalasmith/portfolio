@@ -31,5 +31,7 @@
 }
 
 body {
+  color: white;
   cursor: url('/images/custom-cursor.png'), auto;
+  background-image: url('../images/background.jpg');
 }

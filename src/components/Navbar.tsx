@@ -2,7 +2,7 @@
 
 import { Menu,  } from 'antd';
 
-const Navbar = () => {
+export const Navbar = () => {
 
   return (
     <nav className="fixed top-0 z-50 w-full">
@@ -20,5 +20,3 @@ const Navbar = () => {
     </nav>
   );
 };
-
-export default Navbar;

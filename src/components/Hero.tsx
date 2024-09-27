@@ -3,7 +3,7 @@
 import { Button } from 'antd';
 import { ArrowRightOutlined } from '@ant-design/icons';
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <section className="relative flex items-center justify-center h-screen overflow-hidden bg-gradient-to-br from-purple-600 to-indigo-600">
       <div className="text-center text-white animate-fade-in-down">
@@ -25,5 +25,3 @@ const Hero = () => {
     </section>
   );
 };
-
-export default Hero;

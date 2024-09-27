@@ -5,7 +5,7 @@ import {
   LinkedinFilled,
 } from '@ant-design/icons';
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className="py-8 text-center bg-gray-900">
       <div className="mb-4 text-2xl text-white">
@@ -21,5 +21,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

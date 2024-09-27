@@ -1,6 +1,6 @@
 // app/page.tsx
-import Hero from '../components/Hero';
-import ParallaxSection from '../components/ParallaxSection';
+import {Hero} from '../components/Hero';
+import {ParallaxSection} from '../components/ParallaxSection';
 
 export default function Home() {
   return (
