@@ -11,7 +11,10 @@ export const Hero = () => {
           Welcome to My World
         </h1>
         <p className="mb-8 text-xl lg:text-2xl">
-          Crafting experiences through design.
+          Crafting experiences through design
+        </p>
+        <p className="mb-8 text-xl lg:text-2xl">
+          My personal web playground
         </p>
           <p className="mb-8 text-xl lg:text-2xl">
           Keep in mind that this web site is under construction
