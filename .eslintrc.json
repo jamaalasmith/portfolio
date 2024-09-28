@@ -1,3 +1,11 @@
 {
+  "rules": {
+   "at-rule-no-unknown": [
+      "error",
+      {
+        "ignoreAtRules": ["tailwind"]
+      }
+    ]
+  },
   "extends": ["next/core-web-vitals", "next/typescript"]
 }
